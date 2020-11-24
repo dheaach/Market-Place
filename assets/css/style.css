@@ -1,0 +1,95 @@
+.baris{
+    border-bottom:1px dashed #CCC;
+}
+
+.normal{
+    width:100%;
+    background-color: #FFF;
+    position: relative;
+    height: 55px;
+}
+
+.normal ul{
+    margin-left: 30px;
+    list-style: none;
+}
+
+.normal ul li{
+    display:inline-block;
+    -webkit-transition:all 0.3s ease;
+}
+
+.normal ul li a{
+    color:grey;
+    text-decoration:none;
+    padding:15px 11px;
+    display:block;
+    outline:none;
+    -webkit-transition:all 0.3s ease;
+}
+
+.normal ul li a:hover{
+    color : #32CD32;
+    display: block;
+}
+
+.normal ul li a:hover .anu{
+    display: block;
+}
+
+.normal ul .anu{
+    display: none;
+}
+
+.normal ul ul{
+    position:absolute;
+    visibility:hidden;
+    display: none;
+}
+
+.normal ul ul li{
+    background:#CCC;
+}
+
+.normal ul ul li a{
+    color:#414857;
+    display:block;
+    -webkit-transition:all 0.3s ease;
+}
+
+.normal ul li:hover > ul li{
+    visibility:visible;
+    height:54px;
+}
+
+.pull-right{
+    float:right;
+}
+
+.gang{
+    margin-right: 36px;
+}
+
+.stir-rating {
+  line-height:32px;
+  font-size:14px;
+  padding: 2px;
+}
+
+.star-rating {
+  line-height:32px;
+  font-size:1.2rem;
+}
+
+.star-rating .fa-star{
+    color: #FFD700;
+}
+
+.anu{
+    -webkit-text-stroke:5px #FFD700;
+}
+
+.inu{
+    color: yellow;
+    -webkit-text-stroke:6px #CCC;
+}
